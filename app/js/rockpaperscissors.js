@@ -57,9 +57,9 @@ function getWinner(playerMove,computerMove) {
     }
     if (playerMove = 'paper' && computerMove = 'scissors'){
         winner = 'computer'
-        else {
-            winner = 'tie'
-        }
+    if (playerMove = computerMove){
+        winner = tie
+    }
     return winner;
 }
 
